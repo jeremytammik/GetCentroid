@@ -38,6 +38,7 @@ using System.Runtime.InteropServices;
 // 2015-06-23 2015.0.0.0 flat migration to Revit 2015
 // 2015-06-23 2015.0.0.1 suppressed architecture mismatch warning
 // 2015-06-23 2015.0.0.2 eliminated obsolete API usage
+// 2015-06-23 2016.0.0.0 flat migration to Revit 2016
 //
-[assembly: AssemblyVersion( "2015.0.0.2" )]
-[assembly: AssemblyFileVersion( "2015.0.0.2" )]
+[assembly: AssemblyVersion( "2016.0.0.0" )]
+[assembly: AssemblyFileVersion( "2016.0.0.0" )]
