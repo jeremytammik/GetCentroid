@@ -308,14 +308,18 @@ namespace GetCentroid
       Document doc = uidoc.Document;
       List<ElementId> ids = new List<ElementId>();
       Selection sel = uidoc.Selection;
-      SelElementSet set = sel.Elements;
+      //SelElementSet set = sel.Elements; // 2014
+      ICollection<ElementId> selids = sel.GetElementIds(); // 2015
 
-      if( 0 < set.Size )
+      //if( 0 < set.Size ) // 2014
+      if( 0 < selids.Count ) // 2015
       {
-        foreach( Element e in set )
-        {
-          ids.Add( e.Id );
-        }
+        //foreach( Element e in set ) // 2014
+        //{
+        //  ids.Add( e.Id ); // 2014
+        //}
+
+        ids.AddRange( selids ); // 2015
       }
       else
       {

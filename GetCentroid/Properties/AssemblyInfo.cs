@@ -36,6 +36,8 @@ using System.Runtime.InteropServices;
 // 2012-12-09 initial implementation for Revit 2013
 // 2015-06-23 2014.0.0.0 flat migration to Revit 2014
 // 2015-06-23 2015.0.0.0 flat migration to Revit 2015
+// 2015-06-23 2015.0.0.1 suppressed architecture mismatch warning
+// 2015-06-23 2015.0.0.2 eliminated obsolete API usage
 //
-[assembly: AssemblyVersion( "2015.0.0.0" )]
-[assembly: AssemblyFileVersion( "2015.0.0.0" )]
+[assembly: AssemblyVersion( "2015.0.0.2" )]
+[assembly: AssemblyFileVersion( "2015.0.0.2" )]
