@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command GetCentroid</Text>
+    <Description>Some description for GetCentroid</Description>
+    <Assembly>GetCentroid.dll</Assembly>
+    <FullClassName>GetCentroid.Command</FullClassName>
+    <ClientId>a33cc15d-07b1-41ae-bacb-c9a6dfa61ad4</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
