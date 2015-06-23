@@ -58,21 +58,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="RevitAPI">
-      <HintPath>$(ProgramFiles)\Autodesk\Revit 2013\Program\RevitAPI.dll</HintPath>
+      <HintPath>..\..\..\..\Program Files\Autodesk\Revit 2014\RevitAPI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="RevitAPIUI">
-      <HintPath>$(ProgramFiles)\Autodesk\Revit 2013\Program\RevitAPIUI.dll</HintPath>
+      <HintPath>..\..\..\..\Program Files\Autodesk\Revit 2014\RevitAPIUI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Deployment" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
-    <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Command.cs" />
@@ -109,7 +103,7 @@
     <Delete Files="$(AppData)\Autodesk\REVIT\Addins\2013\GetCentroid.dll" />
   </Target>
   <PropertyGroup>
-    <PostBuildEvent>copy "$(ProjectDir)GetCentroid.addin" "$(AppData)\Autodesk\REVIT\Addins\2013"
-copy "$(ProjectDir)bin\debug\GetCentroid.dll" "$(AppData)\Autodesk\REVIT\Addins\2013"</PostBuildEvent>
+    <PostBuildEvent>copy "$(ProjectDir)GetCentroid.addin" "$(AppData)\Autodesk\REVIT\Addins\2014"
+copy "$(ProjectDir)bin\debug\GetCentroid.dll" "$(AppData)\Autodesk\REVIT\Addins\2014"</PostBuildEvent>
   </PropertyGroup>
 </Project>

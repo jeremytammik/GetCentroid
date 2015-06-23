@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle( "Revit Add-In Title" )]
-[assembly: AssemblyDescription( "Revit Add-In Description" )]
+[assembly: AssemblyTitle( "GetCentroid" )]
+[assembly: AssemblyDescription( "Revit add-in for solid centroid and volume calculation" )]
 [assembly: AssemblyConfiguration( "" )]
 [assembly: AssemblyCompany( "Autodesk Inc." )]
-[assembly: AssemblyProduct( "Revit Add-In Wizard Template Application" )]
-[assembly: AssemblyCopyright( "Copyright 2012 © Jeremy Tammik Autodesk Inc." )]
+[assembly: AssemblyProduct( "GetCentroid" )]
+[assembly: AssemblyCopyright( "Copyright 2012-2015 © Jeremy Tammik, Autodesk Inc." )]
 [assembly: AssemblyTrademark( "" )]
 [assembly: AssemblyCulture( "" )]
 
@@ -32,5 +32,9 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion( "1.0.0.0" )]
-[assembly: AssemblyFileVersion( "1.0.0.0" )]
+//
+// 2012-12-09 initial implementation for Revit 2013
+// 2015-06-23 2014.0.0.0 flat migration to Revit 2014
+//
+[assembly: AssemblyVersion( "2014.0.0.0" )]
+[assembly: AssemblyFileVersion( "2014.0.0.0" )]
